@@ -43,13 +43,13 @@ class Connection
      */
     public function __construct()
     {
-        $this->user = DB_USER;
-        $this->host = DB_HOST;
-        $this->password = DB_PASSWORD;
-        $this->dbName = DB_NAME;
+        $this->user = 'root';
+        $this->host = 'localhost';
+        $this->password = '';
+        $this->dbName = 'fst';
         try {
             $this->pdoConnection = new PDO(
-                'mysql:host=' . $this->host . '; dbname=' . $this->dbName . '; charset=utf8',
+                'mysql:host=localhost' . $this->host . '; dbname=fst' . $this->dbName . '; charset=utf8',
                 $this->user,
                 $this->password
             );
@@ -71,4 +71,23 @@ class Connection
     {
         return $this->pdoConnection;
     }
+}
+
+/*Connexion PDO 
+
+try 
+{
+    $con = new PDO('mysql:host=localhost;dbname=bd_mini_chat;charset=utf8','root','');
+
+    echo "Succes de la connexion à la bdd </br>";
+ 
+    // Message d'erreur en cas de non connexion :
+
+} catch (Exception $e) {
+    die('Erreur: '. $e ->getMessage());
+}
+// finir le test
+
+finally{
+    echo " </br> fin du test </br> </br>";
 }
