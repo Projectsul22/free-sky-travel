@@ -86,7 +86,7 @@ return function (array $context) {
           <div class="carousel-caption text-start">
             <h1>Free Sky Travel ?</h1>
             <p>Pour des voyages toujours plus surprenants ;)</p>
-            <p><a class="btn btn-lg btn-primary" href="/front/a_propos.php">Sign up today</a></p>
+            <p><a class="btn btn-lg btn-primary" href="/front/login.php">Sign up today</a></p>
           </div>
         </div>
       </div>

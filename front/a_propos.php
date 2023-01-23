@@ -25,7 +25,7 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-    <header>
+    <>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/public/index.php">
@@ -56,7 +56,7 @@
       </div>
     </div>
   </nav>
-</header>
+
   </header>
 
   <main class="px-3">
