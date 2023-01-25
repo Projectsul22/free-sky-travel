@@ -1,3 +1,6 @@
+<?php require_once 'C:\xampp\htdocs\2SIO_INI_SLAM\Projet-slam-web\Projets stages\f-s-t\src\View\_partials\header.html';
+
+?>
 <?php
 
 /* use App\Kernel;
@@ -38,38 +41,7 @@ return function (array $context) {
   </head>
   <body>
     
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/public/index.php">
-            <img src="/assets/img/FST.png" height="70" weight="70"></a>
-      <a class="navbar-brand" href="/public/index.php">FST</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/public/index.php">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/front/a_propos.php">A Propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="/front/offres.php">Offres</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="/front/">Contact</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">recherche</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+
 
 <main>
 
